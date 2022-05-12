@@ -3,7 +3,7 @@ import './NavBarStyle.css';
 
 function Navbar() {
   return (
-    <div className='navbar border flex'>
+    <div className='navbar flex'>
         <div>Logo</div>
         <div className='links flex'>
             <div>Home</div>
