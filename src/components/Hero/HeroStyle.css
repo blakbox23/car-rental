@@ -40,9 +40,9 @@
     margin-top: 1.5rem;
 }
 .hero-text button {
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: 1rem 2rem;
-    background-color: orangered;
+    background-color: rgb(216, 130, 96);
     color: #fff;
     border: none;
     font-size: 1.2rem;

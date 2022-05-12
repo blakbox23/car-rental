@@ -8,7 +8,7 @@ function Hero() {
     <div className='hero'></div>
 
     <div className='overlay'>
-      <div className='border'><Navbar/></div>
+      <div><Navbar/></div>
       <div className='hero-text'>
         <h2>CAR RENTALS</h2>
         <h3>FOR YOUR SPECIAL OCCASIONS</h3>
