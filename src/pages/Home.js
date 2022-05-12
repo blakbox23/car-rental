@@ -3,6 +3,7 @@ import About from '../components/about/About'
 import Cars from '../components/cars/Cars'
 import Hero from '../components/Hero/Hero'
 import NavBar from '../components/NavBar/NavBar'
+import Testimonials from '../components/testimonials/Testimonials'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
             <Hero />
             <Cars />
             <About />
+            <Testimonials />
         </div>
      
         
