@@ -1,0 +1,91 @@
+
+  .car-tabs-container {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    width: 85%;
+    /* height: 300px; */
+    /* background: #f1f1f1; */
+    margin: 4rem auto 0;
+    /* word-break: break-all; */
+    border: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .tabs-div {
+    display: flex;
+  }
+  .tabs {
+    padding: 10px;
+    text-align: center;
+    /* width: 50%; */
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  /* .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  } */
+  
+  .active-tabs  {
+    color: rgb(88, 147, 241);
+    border-bottom: 1px solid transparent;
+    border-bottom: 4px solid rgb(88, 147, 241);
+  }
+  
+  /* .active-tabs::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: rgb(88, 147, 241);
+  } */
+
+  button {
+    border: none;
+    
+  }
+  /* .content-tabs {
+    flex-grow : 1;
+  } */
+  .content {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    /* border: 1px solid black; */
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 2rem;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  .car-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+
+  .car-item {
+    width: 30%;
+    border: 1px solid black;
+  }
