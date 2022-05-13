@@ -5,8 +5,11 @@ import './CarsStyle.css'
 function Cars() {
   return (
     <div className='cars'>
-      <h4>Explore our top deals</h4>
-      <h5>Pick a favourite and enjoy </h5>
+      <div className='cars-text'>
+        <h2>Explore our top deals</h2>
+        <p>Pick a favourite and enjoy </p>
+      </div>
+      
       <CarTabs />
     </div>
   )

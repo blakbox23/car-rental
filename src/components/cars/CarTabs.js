@@ -16,19 +16,23 @@ function Tabs() {
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}
         >
-          3 Seaters
+          3 Seater
         </button>
         <button
           className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(2)}
         >
-          5 Seaters
+          5 Seater
         </button>
         <button
           className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(3)}
         >
-         7 Seaters
+         7 Seater
+        </button>
+        <button className="tabs"
+        >
+         Trucks
         </button>
       </div>
 
@@ -36,7 +40,7 @@ function Tabs() {
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-          <h2>3 Seater</h2>
+          <h3>3 Seater</h3>
           <hr />
          <div className="car-panel">
              <div className="car-item"><CarCard /></div>
@@ -48,12 +52,12 @@ function Tabs() {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <h2>Content 2</h2>
+          <h3>5 Seater</h3>
           <hr />
           <div className="car-panel">
              <div className="car-item"><CarCard /></div>
              <div className="car-item"><CarCard /></div>
-             <div className="car-item">car 3</div>
+             <div className="car-item"><CarCard /></div>
              <div className="car-item"><CarCard /></div>
              <div className="car-item"><CarCard /></div>
              <div className="car-item">car 3</div>
@@ -63,7 +67,7 @@ function Tabs() {
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-          <h2>Content 3</h2>
+          <h3>7 Seater</h3>
           <hr />
           <div className="car-panel">
              <div className="car-item"><CarCard /></div>

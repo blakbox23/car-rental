@@ -1,6 +1,13 @@
 .cars {
-    margin: auto;
-    width: 100%;
-    min-height: 90vh;
-    background-color: rgb(224, 248, 248);
+  margin: auto;
+  width: 100%;
+  min-height: 90vh;
+  background-color: rgb(224, 248, 248);
+  padding-top: 3rem;
+}
+
+.cars-text {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 1.3rem;
 }
