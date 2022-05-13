@@ -3,7 +3,8 @@ import './TestimonialsStyle.css'
 
 function Testimonials() {
   return (
-    <div className='testimonials'>Testimonials</div>
+    <div className='testimonials'>Testimonials
+    </div>
   )
 }
 

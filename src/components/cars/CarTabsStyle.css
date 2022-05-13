@@ -82,10 +82,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin: 3rem 0;
   }
 
   .car-item {
     width: 30%;
-    border: 1px solid black;
+    margin-bottom: 1.5rem;
   }
