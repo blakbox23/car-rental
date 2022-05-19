@@ -24,19 +24,10 @@ function Navbar() {
                 to="cars"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-59}
                 duration={500}
               >Cars</Link></div>
-            {/* <div>
-            <Link
-                activeClass="active"
-                to="cars"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-              >Cars</Link>
-            </div> */}
+
             <div> <Link
                 activeClass="active"
                 to="about"
