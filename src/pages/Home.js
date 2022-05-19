@@ -11,10 +11,10 @@ function Home() {
         <>
         <div>
             {/* <NavBar /> */}
-            <Hero />
-            <Cars />
-            <About />
-            <Testimonials />
+            <Hero id='hero' /> 
+            <Cars id='cars' />
+            <About id='about' />
+            <Testimonials id='testimonials' />
         </div>
      
         
