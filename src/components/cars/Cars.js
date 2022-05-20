@@ -9,8 +9,10 @@ function Cars() {
         <h2>Explore our top deals</h2>
         <p>Pick a favourite and enjoy </p>
       </div>
-      
+  
       <CarTabs />
+       
+      
     </div>
   )
 }
