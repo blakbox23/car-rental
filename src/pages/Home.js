@@ -34,9 +34,7 @@ function Home() {
             <div><Cars id='cars' /></div>
             <About id='about' />
             <Testimonials id='testimonials' />
-        </div>
-     
-        
+        </div>    
         </>
 
     </div>

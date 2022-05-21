@@ -10,7 +10,6 @@ function Hero() {
     <div className='hero'></div>
 
     <div className='overlay'>
-      {/* <div><Navbar/></div> */}
       <div className='hero-text'>
         
         <Fade down>
