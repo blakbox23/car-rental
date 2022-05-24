@@ -1,0 +1,41 @@
+.car-card {
+    background-color: #fff;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.car-card-image{
+    width: 100%;
+    height: 16rem;
+
+}
+
+.car-card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.car-card-text {
+    margin: 1rem 0;
+}
+
+.car-card-text :first-child {
+    font-weight: bold;
+}
+.price {
+    color: rgb(82, 82, 145);
+}
+.car-card-button {
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color:rgb(82, 82, 145);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+}
