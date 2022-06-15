@@ -5,6 +5,8 @@ import Hero from '../components/Hero/Hero'
 import NavBar from '../components/NavBar/NavBar'
 import Testimonials from '../components/testimonials/Testimonials'
 import './HomeStyle.css'
+import Zoom from 'react-reveal/Zoom';
+
 
 
 function Home() {
@@ -34,9 +36,7 @@ function Home() {
             <div><Cars id='cars' /></div>
             <About id='about' />
             <Testimonials id='testimonials' />
-        </div>
-     
-        
+        </div>    
         </>
 
     </div>

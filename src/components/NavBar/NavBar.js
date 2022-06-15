@@ -33,7 +33,7 @@ function Navbar() {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-59}
                 duration={500}
               >About</Link></div>
             <div>
@@ -42,7 +42,7 @@ function Navbar() {
                 to="testimonials"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-59}
                 duration={500}
               >Reviews</Link>
             </div>
