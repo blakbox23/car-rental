@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './NavBarStyle.css'; 
 import About from '../about/About';
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -50,8 +51,12 @@ function Navbar() {
 
 
         <div className='login-section flex'>
-            <div>Login</div>
-            <div>Sign up</div>
+            <div>
+              <NavLink to="/login">
+             <p className='login-btn'>Login</p> 
+              </NavLink>
+              </div>
+            {/* <div>Sign up</div> */}
         </div>
         
     </div>
