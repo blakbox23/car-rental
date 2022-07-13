@@ -1,4 +1,6 @@
-
+.yellow {
+  color: yellow;
+}
 .about {
   background-image: url(https://source.unsplash.com/DPP1VxqMgwE);
   background-size: cover;
