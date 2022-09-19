@@ -1,9 +1,9 @@
 import { useState } from "react";
 import CarCard from "./CarCard";
 import "./CarTabsStyle.css";
-import Pulse from 'react-reveal/Pulse';
-import Swing from 'react-reveal/Swing';
-import Zoom from 'react-reveal/Zoom';
+// import Pulse from 'react-reveal/Pulse';
+// import Swing from 'react-reveal/Swing';
+// import Zoom from 'react-reveal/Zoom';
 
 
 function Tabs() {
@@ -48,9 +48,10 @@ function Tabs() {
           <hr />
         
          <div className="car-panel">
-         <Zoom><div className="car-item"><CarCard /></div> </Zoom>
-         <Zoom><div className="car-item"><CarCard /></div> </Zoom>
-         <Zoom><div className="car-item"><CarCard /></div> </Zoom>
+     
+         <div className="car-item"><CarCard /></div> 
+         <div className="car-item"><CarCard /></div> 
+         <div className="car-item"><CarCard /></div> 
          </div>
        
         </div>
@@ -61,10 +62,10 @@ function Tabs() {
           <h3>5 Seater</h3>
           <hr />
           <div className="car-panel">
-          <Zoom><div className="car-item"><CarCard /></div> </Zoom>
-          <Zoom><div className="car-item"><CarCard /></div> </Zoom>
-          <Zoom><div className="car-item"><CarCard /></div> </Zoom>
+          <div className="car-item"><CarCard /></div> 
              <div className="car-item"><CarCard /></div>
+             <div className="car-item"><CarCard /></div> 
+             <div className="car-item"><CarCard /></div> 
           
          </div>
         </div>
@@ -75,9 +76,9 @@ function Tabs() {
           <h3>7 Seater</h3>
           <hr />
           <div className="car-panel">
-          <Swing><div className="car-item"><CarCard /></div> </Swing>
-          <Swing><div className="car-item"><CarCard /></div> </Swing>
-        
+          <div className="car-item"><CarCard /></div> 
+          <div className="car-item"><CarCard /></div> 
+          <div className="car-item"><CarCard /></div> 
          </div>
         </div>
       </div>

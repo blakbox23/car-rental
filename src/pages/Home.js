@@ -4,6 +4,7 @@ import Cars from '../components/cars/Cars'
 import Hero from '../components/Hero/Hero'
 import NavBar from '../components/NavBar/NavBar'
 import Testimonials from '../components/testimonials/Testimonials'
+import Footer from '../components/footer/Footer'
 import {fetchVehicles} from '../store/Actions/VehiclesActions'
 import './HomeStyle.css'
 import Zoom from 'react-reveal/Zoom';
@@ -42,6 +43,7 @@ function Home() {
             <div><Cars id='cars' /></div>
             <About id='about' />
             <Testimonials id='testimonials' />
+            <Footer />
         </div>    
         </>
 
