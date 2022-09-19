@@ -2,8 +2,8 @@ import axios from "axios";
 
 class AppApi {
 
-  async getAgents() {
-      const response = await axios.get('/agents/')
+  async getVehicles() {
+      const response = await axios.get('http://localhost:3000/api/v1/vehicles/')
       return (response.data)
     }
 

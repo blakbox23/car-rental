@@ -1,3 +1,7 @@
+import { FETCH_VEHICLES_SUCCESS } from "../Actions/VehiclesActions";
+import { FETCH_VEHICLES } from "../Actions/VehiclesActions";
+
+
 const initialState = {
     pending: false,
     error: null,
@@ -5,14 +9,14 @@ const initialState = {
   };
 
   const vehiclesReducer = (state = initialState, action) => {
-    switch (action) {
+    switch (action.types) {
       case FETCH_VEHICLES:
           return {
               ...state,
               pending: true
           };
 
-      case ratingTypes.UPDATE_RATING_SUCCESS: 
+      case FETCH_VEHICLES_SUCCESS: 
         return {
           ...state,
           pending: false,

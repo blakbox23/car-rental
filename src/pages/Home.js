@@ -4,7 +4,7 @@ import Cars from '../components/cars/Cars'
 import Hero from '../components/Hero/Hero'
 import NavBar from '../components/NavBar/NavBar'
 import Testimonials from '../components/testimonials/Testimonials'
-import fetchVehicles from '../store/Actions/VehiclesActions'
+import {fetchVehicles} from '../store/Actions/VehiclesActions'
 import './HomeStyle.css'
 import Zoom from 'react-reveal/Zoom';
 import { useDispatch, useSelector } from 'react-redux'
@@ -12,6 +12,8 @@ import { useDispatch, useSelector } from 'react-redux'
 
 
 function Home() {
+
+  const dispatch =useDispatch();
 
   useEffect(() => {
     dispatch(fetchVehicles())
