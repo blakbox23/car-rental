@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #8a3b3b;
+    height: 3rem;
+    font-family: Poppins;
+}
+
+.footer p {
+    color: #fff;
+}

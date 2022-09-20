@@ -8,7 +8,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 function Hero() {
   return (
-      <>
+      <> 
     <div className='hero'></div>
 
     <div className='overlay'>
